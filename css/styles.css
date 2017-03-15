@@ -1,0 +1,176 @@
+/* CUSTOM STYLES */
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+nav.navbar.navbar-fixed-top.navbar-default {
+    background: rgba(0,0,0,0.9);
+    border: none;
+    box-shadow: none;
+    text-align: center;
+/*    height: 100px;*/
+}
+/* TODO: REMOVE SOME MARGIN FROM EACH SIDE OF NAVBAR AND FIGURE OUT WHY EVERYTHING IS SHIFTING RIGHT WHEN THE TEXT IS LIKE THIS */
+.nav-cont-outer {
+/*    margin: 0 10px;*/
+}
+
+/*
+#brand-image {
+    padding: 0;
+    margin: 0;
+    height: 80px;
+}
+*/
+
+.navbar-default .navbar-brand {
+	color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#navbar-collapse ul.nav li a {
+    color: white;
+    font-weight: 300;
+    font-size: 120%;
+    letter-spacing: 1px;
+/*    padding: 45px 10px;*/
+}
+
+#navbar-collapse ul.nav li a:hover {
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 12px;
+}
+
+/*
+button.navbar-toggle.collapsed {
+    margin: 32.5px;
+}
+*/
+
+#top {
+    height: 100vh;
+    /*PLACEHOLDER FOR NOW UNTIL WE FIND A BETTER SET OF IMAGES*/
+    background-image: url('http://www.zenmetrospa.com/zensplash.gif');
+/*    background-color: rgba(0,0,0,0.9);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+/* TODO: EDIT THIS SO THAT IT JUST USES MARGIN TOP AND UTILIZES MEDIA QUERIES */
+.cover-text {
+    text-align: center;
+    color: #FFF;
+    font-weight: 500;
+/*    background-color: rgba(149,150,64,0.4);*/
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8em;
+    padding: 10px 5px;
+    border-radius: 50px;
+}
+
+#main-logo {
+	width: 60%;
+    margin: 10px auto;
+}
+
+.cover-text h1 {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-shadow: 4px 4px 10px #000;
+    margin: 10px auto;
+    display: none;
+}
+
+.contact-link {
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* TODO: STYLE LINK WHEN HOVERED */
+.contact-link:hover {
+	color: white;
+}
+
+.cover-text p {
+	font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 1px;
+}
+
+section {
+    margin: 100px 0;
+    padding: 100px;
+}
+
+.section-header {
+	text-align: center;
+    font-family: 'Railway', sans-serif;
+}
+
+.section-image-head {
+	margin: 20px auto;
+    max-height: 250px;
+}
+
+.sub-sec-header {
+	text-align: center;
+}
+
+.table-size {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.right-side {
+	text-align: right;
+}
+/* TODO: FIGURE OUT WHY BORDERLESS DOESNT ELIMINATE ALL BORDERS */
+.table>thead>tr>th, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border: none;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+/* MEDIA QUERIES GO HERE */
+/* MEDIUM */
+@media only screen and (max-width: 786px){
+    
+    .cover-text {
+        margin-top: 12em;
+}
+    #main-logo {
+        width: 100%;
+    }
+    section {
+        padding: 100px 5px;
+    }
+    
+}
+/* SMALL */
+@media only screen and (max-width: 568px){
+    /* TODO: TEST THESE SIZES ON A SMALL SCREEN AND ADJUST ACCORDINGLY */
+    .cover-text {
+        margin-top: 10em;
+        
+}
+    #main-logo {
+	   width: 120%;
+        margin-left: -15px;
+}
+    
+    
+}
