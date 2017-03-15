@@ -118,6 +118,10 @@ section {
     max-height: 250px;
 }
 
+.section-image-head:hover {
+    box-shadow: 0 3px 10px #ADA63B;
+}
+
 .sub-sec-header {
 	text-align: center;
 }
