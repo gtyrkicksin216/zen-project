@@ -60,6 +60,7 @@ button.navbar-toggle.collapsed {
     background-image: url('http://www.zenmetrospa.com/zensplash.gif');
 /*    background-color: rgba(0,0,0,0.9);*/
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     /* TODO: WORK ON SECTIONS FOR PARALAX */
     background-attachment: fixed;
@@ -158,15 +159,23 @@ td.no-pad {
     padding-top: 0;
 }
 
-#packages {
-	height: 100vh;
-    text-align: center;
-    color: white;
+.parallax {
+	height: 70vh;
     background-image: url(../images/hair-placeholder.jpeg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#packages {
+	height: 100%;
+    text-align: center;
+    background: #FFF;
+    margin-top: 0;
     margin-bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .placeholder {
@@ -193,6 +202,14 @@ footer {
 
 
 /* MEDIA QUERIES GO HERE */
+/* LARGE */
+@media only screen and (max-width: 1024px){
+    .parallax {
+        height: 40vh;
+        background-attachment: scroll;
+    }
+}
+
 /* MEDIUM */
 @media only screen and (max-width: 786px){
     
