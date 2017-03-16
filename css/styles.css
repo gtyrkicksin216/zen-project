@@ -158,10 +158,28 @@ td.no-pad {
     padding-top: 0;
 }
 
-#contact-us {
-	text-align: center;
-    background-color: #ADA63B;
+#packages {
+	height: 100vh;
+    text-align: center;
+    color: white;
+    background-image: url(../images/hair-placeholder.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin-bottom: 0;
+}
+
+.placeholder {
+	min-height: 300px;
+}
+
+#contact-us {
+    height:100vh;
+	text-align: center;
+/*    background-color: #ADA63B;*/
+    background-color: rgba(173, 166, 59, 0.8);
+    margin: 0;
+    padding-top: 18%;
 }
 
 footer {
