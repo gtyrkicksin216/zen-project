@@ -8,7 +8,8 @@ html, body {
 }
 
 nav.navbar.navbar-fixed-top.navbar-default {
-    background: rgba(0,0,0,0.9);
+/*    background: rgba(0,0,0,0.9);*/
+    background: rgba(173, 166, 59, 0.8);
     border: none;
     box-shadow: none;
     text-align: center;
@@ -60,6 +61,8 @@ button.navbar-toggle.collapsed {
 /*    background-color: rgba(0,0,0,0.9);*/
     background-repeat: no-repeat;
     background-size: cover;
+    /* TODO: WORK ON SECTIONS FOR PARALAX */
+    background-attachment: fixed;
     width: 100%;
 }
 /* TODO: EDIT THIS SO THAT IT JUST USES MARGIN TOP AND UTILIZES MEDIA QUERIES */
