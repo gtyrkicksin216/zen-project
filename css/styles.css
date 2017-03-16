@@ -130,6 +130,10 @@ section {
 	text-align: center;
 }
 
+.sandwich {
+	margin-top: 120px;
+}
+
 .table-size {
     max-width: 300px;
     margin: 0 auto;
@@ -141,6 +145,20 @@ section {
 /* TODO: FIGURE OUT WHY BORDERLESS DOESNT ELIMINATE ALL BORDERS */
 .table>thead>tr>th, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
 	border: none;
+}
+
+.small-text {
+    font-size: 11px;
+}
+/* TODO: FIGURE OUT PADDING ISSUE */
+td.no-pad {
+    padding-top: 0;
+}
+
+#contact-us {
+	text-align: center;
+    background-color: #ADA63B;
+    margin-bottom: 0;
 }
 
 footer {
@@ -167,6 +185,12 @@ footer {
         padding: 100px 5px;
     }
     
+}
+
+@media only screen and (max-width: 769px){
+    .sandwich {
+	   margin-top: 0;
+    }
 }
 /* SMALL */
 @media only screen and (max-width: 568px){
