@@ -16,17 +16,7 @@ nav.navbar.navbar-fixed-top.navbar-default {
 /*    height: 100px;*/
 }
 /* TODO: REMOVE SOME MARGIN FROM EACH SIDE OF NAVBAR AND FIGURE OUT WHY EVERYTHING IS SHIFTING RIGHT WHEN THE TEXT IS LIKE THIS */
-.nav-cont-outer {
-/*    margin: 0 10px;*/
-}
 
-/*
-#brand-image {
-    padding: 0;
-    margin: 0;
-    height: 80px;
-}
-*/
 
 .navbar-default .navbar-brand {
 	color: white;
@@ -58,33 +48,33 @@ button.navbar-toggle.collapsed {
     height: 100vh;
     /*PLACEHOLDER FOR NOW UNTIL WE FIND A BETTER SET OF IMAGES*/
     background-image: url('http://www.zenmetrospa.com/zensplash.gif');
-/*    background-color: rgba(0,0,0,0.9);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* TODO: WORK ON SECTIONS FOR PARALAX */
     background-attachment: fixed;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+
 /* TODO: EDIT THIS SO THAT IT JUST USES MARGIN TOP AND UTILIZES MEDIA QUERIES */
 .cover-text {
     text-align: center;
     color: #FFF;
     font-weight: 500;
-/*    width: 60%;*/
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
 }
 
-.cover-text {
-	margin-top: 10vh;
+.main-header {
+    width: 100%;
+    height: 100%;
 }
 
 #main-logo {
-	width: 60%;
-    margin: 10px auto;
+/*	width: 50%;*/
+    margin: 0 auto;
 }
 
 .cover-text h1 {
@@ -212,12 +202,6 @@ footer {
 /* MEDIUM */
 @media only screen and (max-width: 786px){
     
-    .cover-text {
-        margin-top: 12em;
-}
-    #main-logo {
-        width: 100%;
-    }
     section {
         padding: 100px 5px;
     }
@@ -232,14 +216,8 @@ footer {
 /* SMALL */
 @media only screen and (max-width: 568px){
     /* TODO: TEST THESE SIZES ON A SMALL SCREEN AND ADJUST ACCORDINGLY */
-    .cover-text {
-        margin-top: 10em;
-        
-}
-    #main-logo {
-	   width: 120%;
-        margin-left: -15px;
-}
+    
+    
     
     
 }
