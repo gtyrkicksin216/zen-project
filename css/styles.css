@@ -180,6 +180,29 @@ td.no-pad {
     padding-top: 18%;
 }
 
+/* ===== PROFILES PAGE ===== */
+
+#empProfile {
+	text-align: center;
+}
+
+#profiles row {
+    margin: 0 auto;
+}
+
+#profiles #empProfile img {
+	margin: 0 auto;
+    text-align: center;
+}
+
+.profileRow {
+	margin-top: 50px;
+}
+
+#profiles #empProfile .col-md-4 {
+	min-width: 33%;
+}
+
 footer {
     text-align: center;
     background-color: black;
