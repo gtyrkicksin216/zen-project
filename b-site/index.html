@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title></title>
+        <title>Zen Metro Spa &#124; Ohio City</title>
         
         <!-- ======== ADD BOOTSTRAP HERE ======= -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         
         <!-- ======== FAVICON HERE ========= -->
+        <!-- TODO: EDIT HIGH-RES IMAGE FOR FAVICON -->
         <link rel="icon" type="image/png" href="#">
         
         <!-- ======== GOOGLE FONTS ========= -->
@@ -55,10 +56,11 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#top">Home</a></li>
                         <!-- TODO : MAKE DROPDOWNS SPLIT INTO CATEGORIES?? -->
-                        <li><a href="#services">Our Services</a></li>
-                        <li><a href="#">Our Packages</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Packages</a></li>
                         <!-- TODO: SPLIT STYLISTS INTO SECTIONS BASED ON HAIR/SPA? -->
                         <li><a href="#">Meet Our Stylists</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div><!-- #navbar-collapse -->
 
@@ -85,10 +87,10 @@
                         <img src="../images/hair_placeholder_web.png" class="img-responsive section-img-head img-circle" alt="Hair" role="button" data-toggle="modal" data-target="#hair">
                     </div><!-- col-md-4 -->
                     <div class="col-md-4">
-                        <img src="../images/manicure_placeholder_web.png" class="img-responsive section-img-head img-circle" alt="Hair" role="button">
+                        <img src="../images/manicure_placeholder_web.png" class="img-responsive section-img-head img-circle" alt="Hair" role="button" data-toggle="modal" data-target="#nails">
                     </div><!-- col-md-4 -->
                     <div class="col-md-4">
-                        <img src="../images/woman-girl-beauty-mask-web.png" class="img-responsive section-img-head img-circle" alt="Hair" role="button">
+                        <img src="../images/woman-girl-beauty-mask-web.png" class="img-responsive section-img-head img-circle" alt="Hair" role="button" data-toggle="modal" data-target="#spa">
                     </div><!-- col-md-4 -->
                 </div><!-- row -->
             </div><!-- container -->
@@ -100,7 +102,7 @@
             <div class="modal-dialog">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title" id="hair">hair</h3>
+                    <h3 class="modal-title">hair</h3>
                 </div><!-- modal-header -->
                 <div class="modal-body">
                     <div class="inside-info">
@@ -113,15 +115,307 @@
                         </ul><!-- nav-tabs -->
                         <!-- TAB PANES -->
                         <div class="tab-content">
-                            <div class="tab-pane fade in active" role="tabpanel" id="cuts">Some stuff here</div>
-                            <div class="tab-pane fade" role="tabpanel" id="color">Other stuff here</div>
-                            <div class="tab-pane fade" role="tabpanel" id="style">More stuff here</div>
-                            <div class="tab-pane fade" role="tabpanel" id="volume">Even more here</div>
+                            <div class="tab-pane fade in active" role="tabpanel" id="cuts">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">65+</span>
+                                        Ladies
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">35+</span>
+                                        Men
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">30+</span>
+                                        Children &#40;under 8&#41;
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #cuts -->
+                            <div class="tab-pane fade" role="tabpanel" id="color">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">60+</span>
+                                        Single Process
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">80+</span>
+                                        Partial Hilite
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">100+</span>
+                                        Full Hilite
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">20+</span>
+                                        Toner
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">120+</span>
+                                        Balayage
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #color -->
+                            <div class="tab-pane fade" role="tabpanel" id="style">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">65+</span>
+                                        Updo
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">80+</span>
+                                        Bride Updo
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">40+</span>
+                                        Blow Dry
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #style -->
+                            <div class="tab-pane fade" role="tabpanel" id="volume">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">100+</span>
+                                        Basic Perm
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">115+</span>
+                                        Designer Perm
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #volume -->
                         </div><!-- tab-content -->
                     </div><!-- inside-info -->
                 </div><!-- modal-body -->
+                <div class="modal-footer">
+                    <button class="btn btn-default btn-lg form-control" data-dismiss="modal" value="Close">Close</button>
+                </div><!-- modal-footer -->
             </div><!-- modal-dialog -->
         </div><!-- #hair -->
+        
+<!-- *MODAL FOR NAILS* -->
+        <div class="modal fade" id="nails" tabindex="-1" role="dialog" aria-labelledby="nails">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title">nails</h3>
+                </div><!-- modal-header -->
+                <div class="modal-body">
+                    <div class="inside-info">
+                       <!-- NAV TABS -->
+                        <ul class="nav nav-justified nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#feet" aria-controls="feet" role="tab" data-toggle="tab">Feet</a></li>
+                            <li role="presentation"><a href="#hand" aria-controls="color" role="tab" data-toggle="tab">Hand</a></li>
+                        </ul><!-- nav-tabs -->
+                        <!-- TAB PANES -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" role="tabpanel" id="feet">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">55+</span>
+                                        Basic
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">65+</span>
+                                        Spa
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">50+</span>
+                                        Men's
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">10+</span>
+                                        French
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">20+</span>
+                                        Shellac
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #feet -->
+                            <div class="tab-pane fade" role="tabpanel" id="hand">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">25+</span>
+                                        Mini
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">35+</span>
+                                        Basic
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">35+</span>
+                                        Spa
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">25+</span>
+                                        Men's
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">40+</span>
+                                        Shellac Mani
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">45+</span>
+                                        Regular Manicure with Shellaci
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">5+</span>
+                                        Shellac Soak &#40;in addition to manicure&#41;
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">15+</span>
+                                        Polish Change
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">10+</span>
+                                        French Polish
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #hand -->
+                        </div><!-- tab-content -->
+                    </div><!-- inside-info -->
+                </div><!-- modal-body -->
+                <div class="modal-footer">
+                    <button class="btn btn-default btn-lg form-control" data-dismiss="modal" value="Close">Close</button>
+                </div><!-- modal-footer -->
+            </div><!-- modal-dialog -->
+        </div><!-- #nails -->
+        
+<!-- *MODAL FOR SPA* -->
+        <div class="modal fade" id="spa" tabindex="-1" role="dialog" aria-labelledby="spa">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title">spa</h3>
+                </div><!-- modal-header -->
+                <div class="modal-body">
+                    <div class="inside-info">
+                       <!-- NAV TABS -->
+                        <ul class="nav nav-justified nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#all-spa" aria-controls="feet" role="tab" data-toggle="tab">All</a></li>
+                        </ul><!-- nav-tabs -->
+                        <!-- TAB PANES -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" role="tabpanel" id="all-spa">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">10+</span>
+                                        Chin
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">15+</span>
+                                        Brows
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">10+</span>
+                                        Lip
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">15+</span>
+                                        Side of Face
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">35+</span>
+                                        Underarms
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">15+</span>
+                                        Brow Tint
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">25+</span>
+                                        Lash Tint
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">50+</span>
+                                        Face
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">75+</span>
+                                        Brazilian <small>&#40;first visit&#41;</small>
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">50+</span>
+                                        Brazilian <small>&#40;cleanup&#41;</small><br><small>&#40;within 6 weeks of last appointment&#41;</small>
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">40+</span>
+                                        &frac12; Leg
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">80+</span>
+                                        Full Leg
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">35+</span>
+                                        &frac12; Arm
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">50+</span>
+                                        Full Arm
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">30+</span>
+                                        Standard Bikini
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">45+</span>
+                                        Full Bikini
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">55+</span>
+                                        French Bikini
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">50+</span>
+                                        Chest
+                                    </li>
+                                </ul><!-- list-group -->
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span class="badge">40+</span>
+                                        Back
+                                    </li>
+                                </ul><!-- list-group -->
+                            </div><!-- #spa -->
+                        </div><!-- tab-content -->
+                    </div><!-- inside-info -->
+                </div><!-- modal-body -->
+                <div class="modal-footer">
+                    <button class="btn btn-default btn-lg form-control" data-dismiss="modal" value="Close">Close</button>
+                </div><!-- modal-footer -->
+            </div><!-- modal-dialog -->
+        </div><!-- #spa -->
        
         
        

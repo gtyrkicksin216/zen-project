@@ -68,7 +68,7 @@ section h2 {
     box-shadow: 0 0 30px #9EA106;
 }
 
-.modal-body, .modal-header {
+.modal-body, .modal-header, .modal-footer {
 	background: #333;
     color: white;
 }
@@ -82,13 +82,14 @@ section h2 {
 }
 
 .modal-body {
-	border-radius: 0 0 10px 10px;
+	border-radius: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-.nav-tabs.nav-justified {
-	border: none;
+.modal-footer {
+    border: none;
+	border-radius: 0 0 10px 10px;
 }
 
 .nav-tabs>li>a {
@@ -97,13 +98,49 @@ section h2 {
     border-radius: 5px;
 }
 
-.tab-pane {
-    padding: 20px 0;
-    text-align: center;
+.nav-tabs.nav-justified>li>a {
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.left {
-	text-align: left;
+.tab-pane {
+    padding: 20px 0;
+}
+
+.list-group {
+	box-shadow: none;
+}
+
+.list-group-item {
+    background: none;
+    border: none;
+}
+
+.badge {
+    background: none;
+    font-size: 1em;
+}
+
+button {
+    outline: none;
+}
+
+button.close:hover {
+    color: white;
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active {
+    background: #9EA106;
+    border: none;
+    color: white;
+	padding: 20px 0 45px 0;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    outline: none;
 }
 
 
@@ -120,6 +157,7 @@ section h2 {
 
 .jumbotron {
 	height: 90vh;
+    min-height: 450px;
     padding-top: 100px;
     background-image: url('http://www.zenmetrospa.com/zensplash.gif');
     background-position: center center;
