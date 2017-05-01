@@ -58,6 +58,16 @@ section h2 {
     margin-bottom: 80px;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h6 {
+    margin-top: 2px;
+    text-align: center;
+}
+
 .section-img-head {
     margin: 20px auto;
     max-height: 250px;
@@ -143,6 +153,24 @@ button.close:hover {
     outline: none;
 }
 
+.parallax {
+	background-image: url(../../images/hair-placeholder.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+.package-features li {
+    list-style: none;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+}
+
+sup {
+    font-size: .6em;
+}
 
 
 
@@ -188,6 +216,41 @@ h1 {
     display: none;
 }
 
+#packages h3 {
+	text-align: center;
+    border-bottom: 1px solid lightgrey;
+    margin: 0px 80px 20px;
+}
+
+#packages p {
+	text-align: center;
+}
+
+.second {
+    margin-top: 85px;
+}
+
+.hours {
+	margin-bottom: 30px;
+}
+
+#contact {
+	background: #B6B844; /* rgba(182,184,68,1) */
+    margin: 0;
+    padding: 150px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+#contact a {
+	text-decoration: none;
+    color: white;
+}
+
+#contact a:hover {
+	font-weight: 600;
+}
 
 
 
@@ -196,7 +259,51 @@ h1 {
 
 
 
+/* ICON STYLES */
 
+i {
+    margin: 0 10px;
+    font-size: 3em;
+}
+
+.fi-social-facebook:hover {
+	color: #3b5998;
+}
+
+.fi-social-twitter:hover {
+	color: #1da1f2;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    .package-features li {
+        text-align: center;
+    }
+    
+    #packages ul {
+        padding: 0;
+    }
+    
+    .second {
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+    
+    #packages .col-md-4 {
+	    margin: 30px 0;
+    }
+    
+    #plax2 {
+        display: none;
+    }
+    
+}
 
 
 

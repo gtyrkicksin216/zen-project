@@ -22,6 +22,9 @@
         <!-- ======== GOOGLE FONTS ========= -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100,200,500,600" rel="stylesheet">
         
+        <!-- ======== FOUNDATION =========== -->
+        <link rel="stylesheet" href="css/foundation-icons.css">
+        
         <!-- ======== CUSTOM STYLES ======= -->
         <link rel="stylesheet" href="css/styles2.css">
         
@@ -56,9 +59,9 @@
                         <li><a href="#top">Home</a></li>
                         <!-- TODO : MAKE DROPDOWNS SPLIT INTO CATEGORIES?? -->
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#">Packages</a></li>
+                        <li><a href="#packages">Packages</a></li>
                         <!-- TODO: SPLIT STYLISTS INTO SECTIONS BASED ON HAIR/SPA? -->
-                        <li><a href="#">Meet Our Stylists</a></li>
+                        <!-- <li><a href="#">Meet Our Stylists</a></li> -->
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div><!-- #navbar-collapse -->
@@ -91,12 +94,12 @@
                 </div><!-- row -->
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
-                        <img src="images/hair_placeholder_web.png" alt="" class="img-responsive section-img-head img-circle" alt="Makeup" role="button" data-toggle="modal" data-target="#">
+                        <img src="images/makeup_web.png" alt="" class="img-responsive section-img-head img-circle" alt="Makeup" role="button" data-toggle="modal" data-target="#makeup">
                     </div>
                     <div class="col-md-4 col-sm-4">
-                        <img src="images/hair_placeholder_web.png" alt="" class="img-responsive section-img-head img-circle" alt="Makeup" role="button" data-toggle="modal" data-target="#">
-                    </div>
-                </div>
+                        <img src="images/massage_web.png" class="img-responsive section-img-head img-circle" alt="Massage" role="button" data-toggle="modal" data-target="#massage">
+                    </div><!-- col-md-4 -->
+                </div><!-- row -->
             </div><!-- container -->
         </section><!-- #services -->
         
@@ -456,150 +459,32 @@
         
 <!-- *MODAL FOR MAKEUP -->
 <!-- TODO: UPDATE FOR MAKEUP INFO -->
-        <div class="modal fade" id="spa" tabindex="-1" role="dialog" aria-labelledby="spa">
+        <div class="modal fade" id="makeup" tabindex="-1" role="dialog" aria-labelledby="makeup">
             <div class="modal-dialog">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title">spa</h3>
+                    <h3 class="modal-title">makeup</h3>
                 </div><!-- modal-header -->
                 <div class="modal-body">
                     <div class="inside-info">
                        <!-- NAV TABS -->
                         <ul class="nav nav-justified nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#waxing" aria-controls="waxing" role="tab" data-toggle="tab">Waxing</a></li>
-                            <li role="presentation"><a href="#skin-care" aria-controls="skin-care" role="tab" data-toggle="tab">Skin Care</a></li>
+                            <li role="presentation" class="active"><a href="#all-makeup" aria-controls="waxing" role="tab" data-toggle="tab">All</a></li>
                         </ul><!-- nav-tabs -->
                         <!-- TAB PANES -->
                         <div class="tab-content">
-                            <div class="tab-pane fade in active" role="tabpanel" id="waxing">
+                            <div class="tab-pane fade in active" role="tabpanel" id="all-makeup">
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">10+</span>
-                                        Chin
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">15+</span>
-                                        Brows
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">10+</span>
-                                        Lip
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">15+</span>
-                                        Side of Face
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">35+</span>
-                                        Underarms
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">15+</span>
-                                        Brow Tint
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">25+</span>
-                                        Lash Tint
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Face
+                                    <li class="list-group-item"><span class="badge">60+</span>
+                                        Application
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
                                     <li class="list-group-item"><span class="badge">75+</span>
-                                        Brazilian <small>&#40;first visit&#41;</small>
+                                        Bride
                                     </li>
                                 </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Brazilian <small>&#40;cleanup&#41;</small><br><small>&#40;within 6 weeks of last appointment&#41;</small>
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">40+</span>
-                                        &frac12; Leg
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">80+</span>
-                                        Full Leg
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">35+</span>
-                                        &frac12; Arm
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Full Arm
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">30+</span>
-                                        Standard Bikini
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">45+</span>
-                                        Full Bikini
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">55+</span>
-                                        French Bikini
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Chest
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">40+</span>
-                                        Back
-                                    </li>
-                                </ul><!-- list-group -->
-                            </div><!-- #waxing -->
-                            <div class="tab-pane fade" role="tabpanel" id="skin-care">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">80+</span>
-                                        Dermalogica Custom Facial
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Express Facial
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">45+</span>
-                                        15 min Power Peel
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Microdermabrasion
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">200</span>
-                                        &#40;5 Treatment Packages&#41;
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">65+</span>
-                                        Back Treatment
-                                    </li>
-                                </ul><!-- list-group -->
-                            </div><!-- #skin-care -->
+                            </div><!-- #all-makeup -->
                         </div><!-- tab-content -->
                     </div><!-- inside-info -->
                 </div><!-- modal-body -->
@@ -607,155 +492,66 @@
                     <button class="btn btn-default btn-lg form-control" data-dismiss="modal" value="Close">Close</button>
                 </div><!-- modal-footer -->
             </div><!-- modal-dialog -->
-        </div><!-- #spa -->
+        </div><!-- #makeup -->
       
       
 <!-- *MODAL FOR MASSAGE -->
-<!-- TODO: UPDATE FOR MASSAGE INFO -->
-        <div class="modal fade" id="spa" tabindex="-1" role="dialog" aria-labelledby="spa">
+        <div class="modal fade" id="massage" tabindex="-1" role="dialog" aria-labelledby="massage">
             <div class="modal-dialog">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title">spa</h3>
+                    <h3 class="modal-title">massage</h3>
                 </div><!-- modal-header -->
                 <div class="modal-body">
                     <div class="inside-info">
                        <!-- NAV TABS -->
                         <ul class="nav nav-justified nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#waxing" aria-controls="waxing" role="tab" data-toggle="tab">Waxing</a></li>
-                            <li role="presentation"><a href="#skin-care" aria-controls="skin-care" role="tab" data-toggle="tab">Skin Care</a></li>
+                            <li role="presentation" class="active"><a href="#makeup" aria-controls="body-massage" role="tab" data-toggle="tab">All</a></li>
                         </ul><!-- nav-tabs -->
                         <!-- TAB PANES -->
                         <div class="tab-content">
-                            <div class="tab-pane fade in active" role="tabpanel" id="waxing">
+                            <div class="tab-pane fade in active" role="tabpanel" id="body-massage">
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">10+</span>
-                                        Chin
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">15+</span>
-                                        Brows
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">10+</span>
-                                        Lip
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">15+</span>
-                                        Side of Face
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">35+</span>
-                                        Underarms
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">15+</span>
-                                        Brow Tint
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">25+</span>
-                                        Lash Tint
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Face
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">75+</span>
-                                        Brazilian <small>&#40;first visit&#41;</small>
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Brazilian <small>&#40;cleanup&#41;</small><br><small>&#40;within 6 weeks of last appointment&#41;</small>
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">40+</span>
-                                        &frac12; Leg
+                                    <li class="list-group-item"><span class="badge">45+</span>
+                                        Swedish &mdash; 30 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
                                     <li class="list-group-item"><span class="badge">80+</span>
-                                        Full Leg
+                                        Swedish &mdash; 60 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">35+</span>
-                                        &frac12; Arm
+                                    <li class="list-group-item"><span class="badge">100+</span>
+                                        Swedish &mdash; 90 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Full Arm
+                                    <li class="list-group-item"><span class="badge">100+</span>
+                                        Deep Tissue &mdash; 60 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">30+</span>
-                                        Standard Bikini
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">45+</span>
-                                        Full Bikini
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">55+</span>
-                                        French Bikini
+                                    <li class="list-group-item"><span class="badge">120+</span>
+                                        Deep Tissue &mdash; 90 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
                                     <li class="list-group-item"><span class="badge">50+</span>
-                                        Chest
+                                        Pregnancy &mdash; 30 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">40+</span>
-                                        Back
-                                    </li>
-                                </ul><!-- list-group -->
-                            </div><!-- #waxing -->
-                            <div class="tab-pane fade" role="tabpanel" id="skin-care">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">80+</span>
-                                        Dermalogica Custom Facial
+                                    <li class="list-group-item"><span class="badge">100+</span>
+                                        Pregnancy &mdash; 60 min
                                     </li>
                                 </ul><!-- list-group -->
                                 <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Express Facial
+                                    <li class="list-group-item"><span class="badge">100+</span>
+                                        Full Body with Polish &amp; Salt Glow
                                     </li>
                                 </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">45+</span>
-                                        15 min Power Peel
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">50+</span>
-                                        Microdermabrasion
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">200</span>
-                                        &#40;5 Treatment Packages&#41;
-                                    </li>
-                                </ul><!-- list-group -->
-                                <ul class="list-group">
-                                    <li class="list-group-item"><span class="badge">65+</span>
-                                        Back Treatment
-                                    </li>
-                                </ul><!-- list-group -->
-                            </div><!-- #skin-care -->
+                            </div><!-- #body-massage -->
                         </div><!-- tab-content -->
                     </div><!-- inside-info -->
                 </div><!-- modal-body -->
@@ -763,7 +559,111 @@
                     <button class="btn btn-default btn-lg form-control" data-dismiss="modal" value="Close">Close</button>
                 </div><!-- modal-footer -->
             </div><!-- modal-dialog -->
-        </div><!-- #spa -->
+        </div><!-- #massage -->
+        
+        <div class="parallax"></div>
+            
+        <section id="packages">
+            <div class="container">
+               <h2>packages</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>300<sup>00</sup></h3>
+                        <ul class="package-features">
+                            <li>1 hour Facial</li>
+                            <li>1 hour Massage</li>
+                            <li>Spa Manicure</li>
+                            <li>Spa Pedicure</li>
+                            <li>Hair Cut</li>
+                            <li>Deep conditioning treatment &amp; finish</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>220<sup>00</sup></h3>
+                        <ul class="package-features">
+                            <li>1 hour Facial</li>
+                            <li>1 hour Massage</li>
+                            <li>Manicure</li>
+                            <li>Pedicure</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>200<sup>00</sup></h2>
+                        <ul class="package-features">
+                            <li>1 hour Facial</li>
+                            <li>1 hour Massage</li>
+                            <li>Shampoo</li>
+                            <li>Style</li>
+                            <li>Manicure</li>
+                        </ul>
+                    </div>
+                </div><!-- row -->
+                <div class="row second">
+                    <div class="col-md-4">
+                        <h3>190<sup>00</sup></h3>
+                        <ul class="package-features">
+                            <li>Microdermabrasion or Mini Facial</li>
+                            <li>Body Polish &amp; Salt Glow</li>
+                            <li>Mini Pedicure</li>
+                        </ul><!-- package-features -->
+                    </div><!-- col-md-4 -->
+                    <div class="col-md-4">
+                        <h3>155<sup>00</sup></h3>
+                        <ul class="package-features">
+                            <li>Mini Facial</li>
+                            <li>&frac12; hour Massage</li>
+                            <li>Polish Change</li>
+                            <li>Mini Pedicure</li>
+                        </ul><!-- package-features -->
+                    </div><!-- col-md-4 -->
+                    <div class="col-md-4">
+                        <h3>330<sup>00</sup></h3>
+                        <h6>COUPLES PACKAGE</h6>
+                        <ul class="package-features">
+                            <li>2 &mdash; 1 hour Facials</li>
+                            <li>2 &mdash; Basic pedicures</li>
+                            <li>2 &mdash; Mini Facials</li>
+                        </ul><!-- package-features -->
+                    </div><!-- col-md-4 -->
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-md-12 second">
+                        <p><small>There is free shipping for all gift packages. <br>Please call 216-939-1760 if overnight shipping is required.</small></p>
+                    </div><!-- col-md-12 second -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- #packages -->
+        
+        <div class="parallax" id="plax2"></div>
+        
+        <section id="contact">
+            <div class="container">
+               <!-- 
+               <div class="row">
+                    <div class="col-md-12 hours">
+                        <p>Tuesday, Wednesday, Thursday<br>10a&mdash;8p</p>
+                        <p>Friday<br>10a&mdash;6p</p>
+                        <p>Saturday<br>10a&mdash;5p</p>
+                        <p>Sunday &amp; Monday<br>Closed</p>
+                    </div>
+                </div>
+                -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p><a href="tel:2169391670">&#40;216&#41;939-1670</a></p>
+                        <p><a href="https://www.google.com/maps/place/Zen+Metro+Spa/@41.485643,-81.7071767,17z/data=!3m1!4b1!4m5!3m4!1s0x8830f06dd2b0eee9:0xb1b1942fd0212da8!8m2!3d41.485643!4d-81.704988" target="_blank">1870 W. 25<sup>th</sup> St. <br>Cleveland, OH 44113</a></p>
+                        <p><a href="mailto:info@zenmetrospa.com">info@zenmetrospa.com</a></p>
+                    </div><!-- col-md-12 -->
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-sm-2 col-sm-offset-5">
+                        <a href="https://www.facebook.com/Zen-Metro-Spa-49315220740/" target="_blank"><i class="fi-social-facebook"></i></a>
+                        <a href="" target="_blank"><i class="fi-social-twitter"></i></a>
+                    </div><!-- col-sm-2 col-sm-offset-5 -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- #contact -->
+        
        
         
        
