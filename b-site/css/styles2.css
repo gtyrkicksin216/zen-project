@@ -325,6 +325,7 @@ i {
 .info-card {
 	-webkit-perspective: 600px;
     perspective: 600px;
+    margin 20px;
 }
 
 .front, .back {
@@ -342,7 +343,6 @@ i {
 	width: 100%;
     height: auto;
     position: absolute;
-    z-index: 1;
     display: block;
 }
 
@@ -362,6 +362,8 @@ i {
 .info-card:hover .front {
 	transform: rotateY(180deg);
 }
+
+
 
 
 
