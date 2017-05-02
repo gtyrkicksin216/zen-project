@@ -308,6 +308,61 @@ i {
 }
 
 
+/* PROFILES PAGE */
+
+#profile-page {
+	background: #FAFAD2;
+}
+
+#profile-cards {
+	text-align: center;
+}
+
+#profile-cards img {
+	margin: 20px auto;
+}
+
+.info-card {
+	-webkit-perspective: 600px;
+    perspective: 600px;
+}
+
+.front, .back {
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front {
+	width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+
+.back {
+	transform: rotateY(-180deg);
+    padding: 0 30px;
+}
+
+.back p {
+    text-align: left;
+}
+
+.info-card:hover .back {
+	transform: rotateY(0);
+}
+
+.info-card:hover .front {
+	transform: rotateY(180deg);
+}
+
 
 
 
