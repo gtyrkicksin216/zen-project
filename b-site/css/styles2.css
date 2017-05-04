@@ -333,8 +333,8 @@ i {
     text-align: center;
 }
 
-.front, .back {
-    transition: 1s;
+#profile-cards .links {
+    color: gainsboro;
 }
 
 .hider {
@@ -348,6 +348,9 @@ i {
     transform-style: preserve-3d;
 }
 
+.front, .back {
+    transition: all 1.5s;
+}
 
 
 

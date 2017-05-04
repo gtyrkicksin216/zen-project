@@ -15,6 +15,7 @@ $(document).on('click', '.navbar-collapse.in', function(e){
 //})
 
 
+
 $('.card').mouseenter(function(){
     $(this).find('.front').toggleClass('hider').fadeOut(1000);
     $(this).find('.back').toggleClass('hider').fadeIn(900);
